@@ -1,0 +1,25 @@
+.overview {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #333;
+}
+
+.app {
+  flex: 1 1 0;
+  width: 1024px;
+  margin: 0 0 0 20px;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+.app:last-child {
+  margin-right: 20px;
+}
+
+.app img {
+  width: 100%;
+  display: block;
+}
