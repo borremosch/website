@@ -25,6 +25,25 @@ const theme = createMuiTheme({
       marginTop: 20,
       marginBottom: 10,
     },
+    h4: {
+      fontSize: 16,
+      marginTop: 20,
+    },
+  },
+  props: {
+    MuiTooltip: {
+      interactive: true,
+      leaveDelay: 300,
+      enterTouchDelay: 0,
+      leaveTouchDelay: 10000,
+    },
+  },
+  overrides: {
+    MuiTooltip: {
+      tooltip: {
+        fontSize: '13px',
+      },
+    },
   },
 });
 
@@ -47,7 +66,7 @@ ReactDOM.render(
       </Router>
     </ThemeProvider>
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById('main')
 );
 
 // If you want to start measuring performance in your app, pass a function

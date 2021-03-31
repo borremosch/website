@@ -1,9 +1,15 @@
 .manual {
   max-width: 1000px;
   margin: 20px auto;
-  display: flex;
-  flex-direction: column;
   padding: 20px 40px;
+}
+
+@media screen and (max-width: 1000px) {
+  .manual {
+    margin: 0;
+    border-radius: 0 !important;
+    padding: 0 15px 10px 15px;
+  }
 }
 
 .table-of-contents {
@@ -34,7 +40,7 @@
 
 .example .screen {
   border: 1px solid rgba(0, 0, 0, 0.2);
-  max-width: 400px;
+  width: 400px;
   display: flex;
   flex-direction: column;
 }
@@ -171,4 +177,38 @@
 
 .button .alpha {
   right: 2px;
+}
+
+.matrix {
+  display: inline-block;
+  border: 2px solid #000;
+  vertical-align: middle;
+  margin: 0 2px;
+}
+
+.matrix-inner {
+  display: flex;
+  margin: -3px 3px;
+  padding: 3px 1px;
+  background: #eee;
+}
+
+.matrix-row {
+  display: flex;
+  flex-direction: column;
+}
+
+.matrix-cell {
+  display: table-cell;
+  text-align: center;
+  padding: 3px 4px;
+  line-height: 1;
+}
+
+.syntax-where {
+  font-size: 12px;
+}
+
+.syntax-list {
+  padding: 0;
 }

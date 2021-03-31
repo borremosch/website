@@ -8,7 +8,19 @@ body {
   font-family: 'Roboto';
 }
 
-#root {
+#main {
   padding: 1px 0;
   background: #222;
+}
+
+@media screen and (max-width: 1000px) {
+  #main {
+    padding: 0;
+  }
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  background: #eee;
+  color: #666;
 }

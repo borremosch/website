@@ -1,0 +1,41 @@
+.syntax {
+  margin-left: 20px;
+}
+
+.type {
+  display: inline-block;
+  line-height: 12px;
+  padding: 2px 5px;
+  background: #333;
+  color: #fff;
+  border-radius: 3px;
+}
+
+.parameter-type {
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  cursor: default;
+}
+
+.function-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.function-name {
+  flex: 1 1 0;
+  max-width: 300px;
+}
+
+.function-symbol {
+  flex: 0 0 auto;
+  display: inline-block;
+  line-height: 1;
+  padding: 2px 5px;
+  border-radius: 5px;
+}
+
+.accordion {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}

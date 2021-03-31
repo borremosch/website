@@ -1,6 +1,6 @@
-import { Switch, Route } from "react-router";
-import { FunctionReference } from "./FunctionReference/FunctionReference";
-import { Manual } from "./Manual/Manual";
+import { Switch, Route } from 'react-router';
+import { FunctionReference } from './Manual/FunctionReference';
+import { Manual } from './Manual/Manual';
 
 export function MathsApp() {
   return (
