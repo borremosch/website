@@ -1,24 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.380611f0.chunk.css",
-    "main.js": "/static/js/main.4d5bbbdf.chunk.js",
-    "main.js.map": "/static/js/main.4d5bbbdf.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.244931ed.js",
-    "runtime-main.js.map": "/static/js/runtime-main.244931ed.js.map",
-    "static/js/2.f001f5d5.chunk.js": "/static/js/2.f001f5d5.chunk.js",
-    "static/js/2.f001f5d5.chunk.js.map": "/static/js/2.f001f5d5.chunk.js.map",
-    "static/js/3.1d2e20d6.chunk.js": "/static/js/3.1d2e20d6.chunk.js",
-    "static/js/3.1d2e20d6.chunk.js.map": "/static/js/3.1d2e20d6.chunk.js.map",
+    "main.css": "/static/css/main.5fdd52ff.chunk.css",
+    "main.js": "/static/js/main.0401bdc8.chunk.js",
+    "main.js.map": "/static/js/main.0401bdc8.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.4c0fc868.js",
+    "runtime-main.js.map": "/static/js/runtime-main.4c0fc868.js.map",
+    "static/js/2.b513ecaf.chunk.js": "/static/js/2.b513ecaf.chunk.js",
+    "static/js/2.b513ecaf.chunk.js.map": "/static/js/2.b513ecaf.chunk.js.map",
+    "static/js/3.43eeaac1.chunk.js": "/static/js/3.43eeaac1.chunk.js",
+    "static/js/3.43eeaac1.chunk.js.map": "/static/js/3.43eeaac1.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.380611f0.chunk.css.map": "/static/css/main.380611f0.chunk.css.map",
-    "static/js/2.f001f5d5.chunk.js.LICENSE.txt": "/static/js/2.f001f5d5.chunk.js.LICENSE.txt",
+    "static/css/main.5fdd52ff.chunk.css.map": "/static/css/main.5fdd52ff.chunk.css.map",
+    "static/js/2.b513ecaf.chunk.js.LICENSE.txt": "/static/js/2.b513ecaf.chunk.js.LICENSE.txt",
+    "static/media/Fireflies.module.css": "/static/media/dark-forest.8223acc5.jpg",
     "static/media/feature-graphic-fireflies.050e67b5.jpg": "/static/media/feature-graphic-fireflies.050e67b5.jpg",
-    "static/media/feature-graphic-mathsapp.829c7115.jpg": "/static/media/feature-graphic-mathsapp.829c7115.jpg"
+    "static/media/feature-graphic-mathsapp.829c7115.jpg": "/static/media/feature-graphic-mathsapp.829c7115.jpg",
+    "static/media/play-store-badge.777556f2.svg": "/static/media/play-store-badge.777556f2.svg",
+    "static/media/screen-overview.3ee3765d.png": "/static/media/screen-overview.3ee3765d.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.244931ed.js",
-    "static/js/2.f001f5d5.chunk.js",
-    "static/css/main.380611f0.chunk.css",
-    "static/js/main.4d5bbbdf.chunk.js"
+    "static/js/runtime-main.4c0fc868.js",
+    "static/js/2.b513ecaf.chunk.js",
+    "static/css/main.5fdd52ff.chunk.css",
+    "static/js/main.0401bdc8.chunk.js"
   ]
 }
