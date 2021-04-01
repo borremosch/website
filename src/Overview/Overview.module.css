@@ -3,23 +3,29 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 2%;
 }
 
 .app {
   flex: 1 1 0;
-  width: 1024px;
-  margin-left: 60px;
+  margin: 2%;
   border-radius: 20px;
   overflow: hidden;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
   max-width: 1024px;
 }
 
-.app:last-child {
-  margin-right: 60px;
-}
-
 .app img {
   width: 100%;
   display: block;
+}
+
+@media screen and (max-width: 1000px) {
+  .overview {
+    flex-direction: column;
+  }
+
+  .app {
+    flex: 0 0 auto;
+  }
 }
