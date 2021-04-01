@@ -11,24 +11,26 @@ export function MathsApp() {
   const isFunctionReferenceSelected = /MathsApp\/FunctionReference/.exec(pathname);
 
   return (
-    <Paper className={styles['page']}>
-      <Tabs value={isFunctionReferenceSelected ? 1 : 0} centered={true} className={styles['tabs']}>
-        <Tab onClick={() => history.push('/MathsApp/Manual')} label="Manual" />
-        <Tab onClick={() => history.push('/MathsApp/FunctionReference')} label="Function reference" />
-      </Tabs>
-      <div className={styles['page-content']}>
-        <Switch>
-          <Route path="/MathsApp/FunctionReference">
-            <FunctionReference />
-          </Route>
-          <Route path="/MathsApp/Get">
-            <Get />
-          </Route>
-          <Route path="/MathsApp">
-            <Manual />
-          </Route>
-        </Switch>
-      </div>
-    </Paper>
+    <div className={styles['page-container']}>
+      <Paper className={styles['page']}>
+        <Tabs value={isFunctionReferenceSelected ? 1 : 0} centered={true} className={styles['tabs']}>
+          <Tab onClick={() => history.push('/MathsApp/Manual')} label="Manual" />
+          <Tab onClick={() => history.push('/MathsApp/FunctionReference')} label="Function reference" />
+        </Tabs>
+        <div className={styles['page-content']}>
+          <Switch>
+            <Route path="/MathsApp/FunctionReference">
+              <FunctionReference />
+            </Route>
+            <Route path="/MathsApp/Get">
+              <Get />
+            </Route>
+            <Route path="/MathsApp">
+              <Manual />
+            </Route>
+          </Switch>
+        </div>
+      </Paper>
+    </div>
   );
 }

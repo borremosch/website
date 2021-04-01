@@ -12,7 +12,7 @@ export function Overview() {
         </Link>
       </div>
       <div className={styles['app']}>
-        <Link to="/MathsApp/">
+        <Link to="/MathsApp">
           <img src={mathsAppFeatureGraphic} alt="MathsApp" />
         </Link>
       </div>

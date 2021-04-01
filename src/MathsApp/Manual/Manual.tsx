@@ -225,31 +225,31 @@ export function Manual() {
         </li>
         <li>
           <strong>
-            <Link href="/MathsApp/FunctionReference/#miscellaneousfunctions">Math functions</Link>
+            <Link href="/MathsApp/FunctionReference#miscellaneousfunctions">Math functions</Link>
           </strong>{' '}
           – miscellaneous general functions
         </li>
         <li>
           <strong>
-            <Link href="/MathsApp/FunctionReference/#listfunctions">List functions</Link>
+            <Link href="/MathsApp/FunctionReference#listfunctions">List functions</Link>
           </strong>{' '}
-          – functions that apply to lists only (e.g. <Link href="/MathsApp/FunctionReference/#union">union</Link>,{' '}
-          <Link href="/MathsApp/FunctionReference/#mean">mean</Link>,{' '}
-          <Link href="/MathsApp/FunctionReference/#sum">sum</Link>)
+          – functions that apply to lists only (e.g. <Link href="/MathsApp/FunctionReference#union">union</Link>,{' '}
+          <Link href="/MathsApp/FunctionReference#mean">mean</Link>,{' '}
+          <Link href="/MathsApp/FunctionReference#sum">sum</Link>)
         </li>
         <li>
           <strong>
-            <Link href="/MathsApp/FunctionReference/#statisticalfunctions">Statistical functions</Link>
+            <Link href="/MathsApp/FunctionReference#statisticalfunctions">Statistical functions</Link>
           </strong>{' '}
           – various functions concerning statistical distributions
         </li>
         <li>
           <strong>
-            <Link href="/MathsApp/FunctionReference/#matrixfunctions">Matrix functions</Link>
+            <Link href="/MathsApp/FunctionReference#matrixfunctions">Matrix functions</Link>
           </strong>{' '}
           – functions that apply to matrices only (e.g.{' '}
-          <Link href="/MathsApp/FunctionReference/#transpose">transpose</Link>,{' '}
-          <Link href="/MathsApp/FunctionReference/#determinant">determinant</Link>){' '}
+          <Link href="/MathsApp/FunctionReference#transpose">transpose</Link>,{' '}
+          <Link href="/MathsApp/FunctionReference#determinant">determinant</Link>){' '}
           <span className={styles['paid_version']}>(paid version only)</span>
         </li>
         <li>
@@ -352,9 +352,9 @@ export function Manual() {
           <span className={styles['alpha']}>j</span>
         </span>{' '}
         button. When user normally, it will insert the{' '}
-        <Link href="/MathsApp/FunctionReference/#square">square operator</Link> into the input. However, by pressing the{' '}
+        <Link href="/MathsApp/FunctionReference#square">square operator</Link> into the input. However, by pressing the{' '}
         <Link href="#screenoverview_2nd_key">2nd button</Link>, the secondary function of the button,{' '}
-        <Link href="/MathsApp/FunctionReference/#squareroot">square root</Link>, will come to the foreground, making the
+        <Link href="/MathsApp/FunctionReference#squareroot">square root</Link>, will come to the foreground, making the
         button looking like{' '}
         <span className={`${styles['button']} ${styles['button-function']}`}>
           &radic;
@@ -517,7 +517,7 @@ export function Manual() {
       </Typography>
       <Typography variant="body1" paragraph={true}>
         Finally, values may be saved in variables for later use using the{' '}
-        <Link href="/MathsApp/FunctionReference/#store">store operator</Link>.
+        <Link href="/MathsApp/FunctionReference#store">store operator</Link>.
       </Typography>
       <div className={mathsappStyles['example']}>
         <span className={mathsappStyles['description']}>Example: using variables</span>
@@ -585,8 +585,8 @@ export function Manual() {
         Overloading
       </Typography>
       <Typography variant="body1" paragraph={true}>
-        While there are many <Link href="/MathsApp/FunctionReference/#listfunctions">list-specific operators</Link>,
-        many regular operators may also be used on lists, in which case they will be applied to all items in the list
+        While there are many <Link href="/MathsApp/FunctionReference#listfunctions">list-specific operators</Link>, many
+        regular operators may also be used on lists, in which case they will be applied to all items in the list
         separately. This is called operator overloading. When operators are overloaded that require more than one
         parameter, a combination of complex numbers and lists may be used, but when multiple lists are used, they must
         be of equal length.
@@ -622,38 +622,38 @@ export function Manual() {
         <li>Parentheses and braces () {}</li>
         <li>Functions</li>
         <li>
-          Exponents and post operators <Link href="/MathsApp/FunctionReference/#power">^</Link>,{' '}
-          <Link href="/MathsApp/FunctionReference/#factorial">!</Link>,{' '}
-          <Link href="/MathsApp/FunctionReference/#transpose">
+          Exponents and post operators <Link href="/MathsApp/FunctionReference#power">^</Link>,{' '}
+          <Link href="/MathsApp/FunctionReference#factorial">!</Link>,{' '}
+          <Link href="/MathsApp/FunctionReference#transpose">
             <sup>-T</sup>
           </Link>
           ,{' '}
-          <Link href="/MathsApp/FunctionReference/#square">
+          <Link href="/MathsApp/FunctionReference#square">
             <sup>2</sup>
           </Link>
           , and{' '}
-          <Link href="/MathsApp/FunctionReference/#reciprocal">
+          <Link href="/MathsApp/FunctionReference#reciprocal">
             <sup>-1</sup>
           </Link>
         </li>
         <li>
-          <Link href="/MathsApp/FunctionReference/#negate">Negate operator (-)</Link>
+          <Link href="/MathsApp/FunctionReference#negate">Negate operator (-)</Link>
         </li>
         <li>
-          <Link href="/MathsApp/FunctionReference/#multiply">Multiply ×</Link> and{' '}
-          <Link href="/MathsApp/FunctionReference/#divide">divide ÷</Link>
+          <Link href="/MathsApp/FunctionReference#multiply">Multiply ×</Link> and{' '}
+          <Link href="/MathsApp/FunctionReference#divide">divide ÷</Link>
         </li>
         <li>
-          <Link href="/MathsApp/FunctionReference/#add">Add +</Link> and{' '}
-          <Link href="/MathsApp/FunctionReference/#subtract"> subtract &minus;</Link>
+          <Link href="/MathsApp/FunctionReference#add">Add +</Link> and{' '}
+          <Link href="/MathsApp/FunctionReference#subtract"> subtract &minus;</Link>
         </li>
         <li>
-          <Link href="/MathsApp/FunctionReference/#intersection">&cap;</Link>,{' '}
-          <Link href="/MathsApp/FunctionReference/#difference">\</Link>, and{' '}
-          <Link href="/MathsApp/FunctionReference/#symmetricaldifference">&Delta;</Link>
+          <Link href="/MathsApp/FunctionReference#intersection">&cap;</Link>,{' '}
+          <Link href="/MathsApp/FunctionReference#difference">\</Link>, and{' '}
+          <Link href="/MathsApp/FunctionReference#symmetricaldifference">&Delta;</Link>
         </li>
         <li>
-          <Link href="/MathsApp/FunctionReference/#store">Store operator &rarr;</Link>
+          <Link href="/MathsApp/FunctionReference#store">Store operator &rarr;</Link>
         </li>
       </ol>
       {/*<Typography variant="h2" id="erlangblockingformula">Example: Erlang Blocking formula</Typography>
