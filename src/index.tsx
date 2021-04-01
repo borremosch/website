@@ -7,6 +7,7 @@ import './index.css';
 import { MathsApp } from './MathsApp/MathsApp';
 import { Overview } from './Overview/Overview';
 import { PrivacyStatement } from './PrivacyStatement/PrivacyStatement';
+import { Contact } from './Contact/Contact';
 import reportWebVitals from './reportWebVitals';
 
 const theme = createMuiTheme({
@@ -62,6 +63,9 @@ ReactDOM.render(
           </Route>
           <Route path="/PrivacyStatement">
             <PrivacyStatement />
+          </Route>
+          <Route path="/Contact">
+            <Contact />
           </Route>
           <Route path="/">
             <Overview />
