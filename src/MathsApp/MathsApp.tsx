@@ -3,6 +3,7 @@ import { Switch, Route, useHistory, useLocation } from 'react-router';
 import { FunctionReference } from './FunctionReference/FunctionReference';
 import { Manual } from './Manual/Manual';
 import styles from '../App.module.css';
+import { Get } from './Get/Get';
 
 export function MathsApp() {
   const { pathname } = useLocation();
@@ -19,6 +20,9 @@ export function MathsApp() {
         <Switch>
           <Route path="/MathsApp/FunctionReference">
             <FunctionReference />
+          </Route>
+          <Route path="/MathsApp/Get">
+            <Get />
           </Route>
           <Route path="/MathsApp">
             <Manual />
