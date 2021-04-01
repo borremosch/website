@@ -34,3 +34,9 @@
 .example .output.error {
   color: #f00;
 }
+
+@media screen and (max-width: 500px) {
+  .example .screen {
+    width: auto;
+  }
+}
