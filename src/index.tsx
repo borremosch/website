@@ -6,6 +6,7 @@ import { Fireflies } from './Fireflies/Fireflies';
 import './index.css';
 import { MathsApp } from './MathsApp/MathsApp';
 import { Overview } from './Overview/Overview';
+import { PrivacyStatement } from './PrivacyStatement/PrivacyStatement';
 import reportWebVitals from './reportWebVitals';
 
 const theme = createMuiTheme({
@@ -53,11 +54,14 @@ ReactDOM.render(
     <ThemeProvider theme={theme}>
       <Router>
         <Switch>
-          <Route path="/mathsapp">
+          <Route path="/MathsApp">
             <MathsApp />
           </Route>
-          <Route path="/fireflies">
+          <Route path="/Fireflies">
             <Fireflies />
+          </Route>
+          <Route path="/PrivacyStatement">
+            <PrivacyStatement />
           </Route>
           <Route path="/">
             <Overview />
