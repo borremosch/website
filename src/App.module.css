@@ -1,0 +1,23 @@
+.page {
+  max-width: 1000px;
+  margin: 20px auto;
+}
+
+.page-content {
+  padding: 20px 40px;
+}
+
+@media screen and (max-width: 1000px) {
+  .page {
+    margin: 0;
+    border-radius: 0 !important;
+  }
+
+  .page-content {
+    padding: 0 15px 10px 15px;
+  }
+}
+
+.tabs {
+  border-bottom: 1px solid #ccc;
+}

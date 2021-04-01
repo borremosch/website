@@ -6,8 +6,8 @@ export function FunctionCategoryComponent({ name, functions }: FunctionCategory)
   return (
     <>
       <Typography variant="h2">{name}</Typography>
-      {functions.map((func) => (
-        <FunctionComponent {...func} />
+      {functions.map((func, i) => (
+        <FunctionComponent key={i} {...func} />
       ))}
     </>
   );

@@ -1,6 +1,6 @@
 import { FunctionExampleItemComponent } from './FunctionExampleItem';
 import { FunctionExample } from './functions';
-import styles from './Manual.module.css';
+import styles from '../MathsApp.module.css';
 
 export function FunctionExampleComponent({ description, items }: FunctionExample) {
   return (

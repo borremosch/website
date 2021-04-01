@@ -1,4 +1,4 @@
-import styles from './Manual.module.css';
+import styles from './FunctionReference.module.css';
 
 export interface FunctionCategory {
   name: string;
