@@ -1,0 +1,90 @@
+.container {
+  background: url(../Images/dark-forest.jpg) center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.heading {
+  font-size: 100px !important;
+  color: #ffc;
+  margin: 30px 0 !important;
+  text-shadow: 0 0 10px #ffc, 0 0 20px #ffc, 0 0 30px #ffc, 0 0 50px #ffc, 0 0 70px #ffc;
+}
+
+.description-container {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.description {
+  color: #fff;
+  font-size: 16px !important;
+  margin: 0 !important;
+  max-width: 800px;
+  text-align: justify;
+}
+
+.description:not(:last-child) {
+  margin: 0 0 20px 0 !important;
+}
+
+.video-container {
+  flex: 1 1 auto;
+  margin: 40px 0 0 0;
+  position: relative;
+  width: 90%;
+  max-width: 1120px;
+  padding-bottom: 50px;
+}
+
+.video-container-inner {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  padding-bottom: 56.25%;
+  max-width: 1120px;
+}
+
+.video {
+  position: absolute;
+}
+
+.play-store-badge {
+  margin: 20px 0 0 0;
+  display: block;
+}
+
+.attribution {
+  font-weight: 600;
+  font-size: 12px;
+  color: #fff;
+  line-height: 1.2;
+  text-align: right;
+  width: 100%;
+  padding: 2px 4px;
+}
+
+.attribution a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 800px) {
+  .heading {
+    font-size: 80px !important;
+  }
+
+  .description-container {
+    border-radius: 0;
+  }
+
+  .video-container {
+    width: 100%;
+  }
+}
